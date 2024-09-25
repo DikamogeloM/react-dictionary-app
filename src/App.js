@@ -13,7 +13,30 @@ export default function App() {
           <Dictionary defaultKeyword="book" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Dikamogelo Mabusela</small>
+          This project was coded by{" "}
+          <a
+            href="https://github.com/DikamogeloM"
+            target="_blank"
+            rel="noopener noreferrer "
+          >
+            Dikamogelo Mabusela
+          </a>{" "}
+          and is open-sourced on{" "}
+          <a
+            href="https://github.com/DikamogeloM/react-dictionary-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github{" "}
+          </a>
+          and hosted on{" "}
+          <a
+            href="https://jolly-bienenstitch-8c3da7.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify.
+          </a>
         </footer>
       </div>
     </div>
